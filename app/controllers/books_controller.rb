@@ -13,7 +13,7 @@ class BooksController < ApplicationController
 
   def show
    @book = Book.find(params[:id])
-  end 
+  end
 
   def new
   @book = Book.new
@@ -34,7 +34,7 @@ class BooksController < ApplicationController
 
   def edit
     @book = Book.find(params[:id])
-  
+
   end
 
   def update
